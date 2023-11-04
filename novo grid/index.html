@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID</title>
+</head>
+<body>
+<div class="container">
+ <div class="item1"><img src= "img/ariranha.jpg"> </div>
+ <div class="item2"><img src= "img/raposa.jpg"></div>
+ <div class="item3"><img src="img/coala.jpg"></div>
+ <div class="item4"><img src="img/coelho.jpg"></div>
+ <div class="item5"><img src="img/dog.jpg"></div>
+ <div class="item6"><img src="img/filhote.jpg"></div>
+ <div class="item7"><img src="img/foinha.jpg"></div>
+ <div class="item8"><img src="img/macaco.jpg"></div>
+ <div class="item9"><img src="img/panda.jpg"></div>
+ <div class="item10"><img src="img/bicho.jpg"></div>
+</div>
+
+<style>
+.container {
+    border: 1px solid #fff;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    grid-template-columns: 300px 300px;  
+    grid-template-rows: 300pxs 250px;
+    gap: 20px;
+    align-items: center;
+    justify-items: center;
+    grid-template-areas: "item1 item3 item5" "item2 item4 item6" "item7 item9 item8 item10";
+}
+
+.div {
+    width: 200px;
+    height: 200px;
+}
+
+.item10 {
+    width: 100%;
+}
+
+
+
+</style>
+    
+</body>
+</html>
